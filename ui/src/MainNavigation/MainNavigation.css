@@ -1,0 +1,9 @@
+.navbar ul {
+    list-style-type: none;
+   
+}
+
+.navbar li {
+    display: inline;
+    margin: 1rem;
+}
