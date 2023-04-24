@@ -36,4 +36,6 @@ yarn-error.log*
 /ui/ui.esproj
 /waounde.sln
 /ui/obj/Debug
+/ui/ui.esproj.user
+/ui/obj/Debug
 /ui
