@@ -1,3 +1,9 @@
+.navbar {
+  display: flex; 
+  justify-content: flex-end; 
+}
+
+
 .navbar ul {
     list-style-type: none;
    
@@ -7,3 +13,4 @@
     display: inline;
     margin: 1rem;
 }
+
