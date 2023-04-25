@@ -1,0 +1,6 @@
+CREATE TABLE Headlines (
+ Id BIGSERIAL PRIMARY KEY,
+ Description VARCHAR(200) NOT NULL,
+ Deepness SMALLINT NOT NULL,
+ ClassName VARCHAR(32) 
+ );
