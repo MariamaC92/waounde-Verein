@@ -1,0 +1,6 @@
+CREATE TABLE content(
+id BIGSERIAL PRIMARY KEY,
+sort SMALLINT NOT NULL,
+content_type_id BIGINT NOT NULL,
+content_table VARCHAR(64)
+);

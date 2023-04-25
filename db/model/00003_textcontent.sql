@@ -1,6 +1,6 @@
-CREATE TABLE TextContent (
-Id BIGSERIAL PRIMARY KEY,
-Topic TEXT NOT NULL, 
-ClassName VARCHAR(32),
-TextType VARCHAR(10) NOT NULL 
+CREATE TABLE textcontent (
+id BIGSERIAL PRIMARY KEY,
+topic TEXT NOT NULL, 
+classname VARCHAR(32),
+texttype VARCHAR(10) NOT NULL 
 );

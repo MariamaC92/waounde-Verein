@@ -1,8 +1,8 @@
-CREATE TABLE Images (
-Id BIGSERIAL PRIMARY KEY, 
-URI VARCHAR(200) NOT NULL,
-Description VARCHAR(100),
-Alternative VARCHAR(255)NOT NULL,
-ClassName VARCHAR(32),
-Alignment VARCHAR(32)
+CREATE TABLE images (
+id BIGSERIAL PRIMARY KEY, 
+uri VARCHAR(200) NOT NULL,
+description VARCHAR(100),
+alternative VARCHAR(255)NOT NULL,
+classname VARCHAR(32),
+alignment VARCHAR(32)
 );
