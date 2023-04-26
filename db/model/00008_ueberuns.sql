@@ -9,3 +9,11 @@ INSERT INTO textcontent (topic, texttypes_id  ) VALUES ('Waoundé ist eine Gemei
 
 INSERT INTO texttypes (description, element) VALUES ('Absatz', '<p>');
 INSERT INTO texttypes (description, element) VALUES ('Zitat', '<cite>');
+
+INSERT INTO images (uri,description,alternative)
+VALUES('Baum-Mock.jpg',
+'Der älteste Baum im Harz. Mit lustig dickem Stamm.',
+'Baum mit Krone aber ohne Äste unten');
+
+INSERT INTO maps (longitude,latitude,zoom,overlayfile)
+VALUES(-12.865865,15.269977,15,'Location_Pin.jpg');
