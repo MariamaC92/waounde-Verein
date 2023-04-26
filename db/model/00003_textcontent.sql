@@ -1,6 +1,8 @@
 CREATE TABLE textcontent (
 id BIGSERIAL PRIMARY KEY,
 topic TEXT NOT NULL, 
-classname VARCHAR(32),
-texttype VARCHAR(10) NOT NULL 
+texttypes_id BIGINT,
+classnames_id BIGINT 
+ FOREIGN KEY (classnames_id)
+ REFERENCES classnames (id) 
 );
