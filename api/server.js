@@ -13,3 +13,5 @@ app.options("*", cors());
 app.listen(port, () => {
   console.log("Waoundé listen on ${port}");
 });
+
+app.use('/contentPage', contentPageRouter);
