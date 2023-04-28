@@ -7,12 +7,12 @@ export default function ContentPage() {
  useEffect(() => {
     axios 
         .get("http://localhost:5000/contentpage/")
-        .then ((response) => {setContent(response)}) 
+        .then ((response) => {setContent(response.data)}) 
         .catch((error) => {console.log(error)})
 
  },[]) 
-console.log(content);
+
     return (<>
-    <h1></h1>
+    {content && <h1>{content.headline.headcription}</h1>}
     </>)
 }
