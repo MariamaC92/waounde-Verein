@@ -2,6 +2,7 @@ import pool from "../database/Pool.js";
 
 export const getContentPage = async (req, res, next) => {
   const { rows } = await pool.query("select * from content_page");
+  
   const headline = rows.map((item) => {
     console.log(item);
     return({
@@ -10,5 +11,15 @@ export const getContentPage = async (req, res, next) => {
     });
   });
   console.log(headline);
-  res.json({ headline });
+
+
+  // Lukas alleine programmiert. Ergibt das Sinn ?
+/*   const textcontent = rows.map((item)=> {
+    console.log(item);
+    return({
+        textcontent: item.topic
+    });
+  });
+  console.log(textcontent);*/
+  res.json({headline});
 };

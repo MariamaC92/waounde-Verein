@@ -4,6 +4,8 @@ import MainNavigation from "../MainNavigation/MainNavigation";
 import {Route, Routes} from "react-router-dom"
 import Kontaktformular from "../Footer/Kontaktformular";
 import ContentPage from "../ContentPage/ContentPage";
+import Footer from "../Footer/Footer.js";
+
 
 
 
@@ -20,5 +22,7 @@ export default function App() {
   </Route>
   
  </Routes>
+
+  <Footer/>
   </>);
 }
