@@ -38,3 +38,7 @@ yarn-error.log*
 /ui/obj/Debug
 /ui/ui.esproj.user
 /ui/obj/Debug
+/api/obj/Debug
+/db/node_modules
+/ui/build
+*.env
