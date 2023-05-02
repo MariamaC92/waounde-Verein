@@ -17,9 +17,14 @@ export default function ContentPage() {
   console.log(content);
   return (
     <>
-      {content && <h1>{content.headline[0].headcription}</h1>}
+      {content &&
+      content.headline.map((item) => {
+        const Heading = `h${item.deepness}`
+        return <Heading>{item.headcription}</Heading>
+      }) }
       {/* Lukas alleine */}
       {/*    {content && <p>{content.textcontent.topic}</p>} */}
     </>
   );
 }
+
