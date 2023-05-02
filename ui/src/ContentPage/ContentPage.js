@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function ContentPage() {
- const [content, setContent] = useState();
+  const [content, setContent] = useState();
 
   useEffect(() => {
     axios
@@ -27,3 +27,4 @@ export default function ContentPage() {
     </>
   );
 }
+
