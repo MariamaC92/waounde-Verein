@@ -1,0 +1,14 @@
+.footerLinks {
+    display: flex; 
+    justify-content: flex-end; 
+  }
+  
+  
+ .footerLinks ul  {
+    list-style-type: none;
+  }
+
+  .footerLinks li { 
+    margin: 1rem; 
+  }
+  
