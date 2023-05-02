@@ -3,6 +3,8 @@ import Header from "../Header/Header";
 import MainNavigation from "../MainNavigation/MainNavigation";
 import {Route, Routes} from "react-router-dom"
 import Kontaktformular from "../Footer/Kontaktformular";
+import ContentPage from "../ContentPage/ContentPage";
+
 
 
 export default function App() {
@@ -14,7 +16,7 @@ export default function App() {
   <Route index element={<Header />} />
   <Route path="/hallo" element={<Header />} />
   <Route path="/kontakt" element={<Kontaktformular />} />
-
+  <Route path="/ueberuns" element={<ContentPage />} />
   </Route>
   
  </Routes>
