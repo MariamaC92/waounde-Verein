@@ -3,6 +3,8 @@ import Header from "../Header/Header";
 import MainNavigation from "../MainNavigation/MainNavigation";
 import {Route, Routes} from "react-router-dom"
 import ContentPage from "../ContentPage/ContentPage";
+import Footer from "../Footer/Footer.js";
+
 
 
 export default function App() {
@@ -16,5 +18,7 @@ export default function App() {
   </Route>
   
  </Routes>
+
+  <Footer/>
   </>);
 }
