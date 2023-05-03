@@ -16,9 +16,10 @@ export default function App() {
  <Routes>
   <Route path="/" >
   <Route index element={<Header />} />
-  <Route path="/hallo" element={<Header />} />
   <Route path="/kontakt" element={<Kontaktformular />} />
-  <Route path="/ueberuns" element={<ContentPage />} />
+  <Route path="/:side" element={<ContentPage />} />
+ 
+  
   </Route>
   
  </Routes>
