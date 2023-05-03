@@ -1,7 +1,8 @@
 import pool from "../database/Pool.js";
 
 export const getContentPage = async (req, res, next) => {
-  const { rows } = await pool.query("select * from content_page");
+  const {side} = req.params;
+  const { rows } = await pool.query(`select * from content_page where side = '${side}'`);
   
   const headline = rows.map((item) => {
     console.log(item);

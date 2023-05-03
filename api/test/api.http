@@ -1,2 +1,11 @@
-GET http://localhost:5000/contentpage
+GET http://localhost:5000/contentpage/ueberuns
+
+### 
+
+GET  http://localhost:5000/contentpage/projekte
+
+###
+
+GET  http://localhost:5000/contentpage/aktuelles
+
 
