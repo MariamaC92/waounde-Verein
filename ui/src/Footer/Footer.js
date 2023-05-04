@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="footerLinks">
         <ul>
           <li><Link to="/links">Links</Link> </li>
-          <li><Link to="/contact">Kontakt</Link> </li>
+          <li><Link to="/kontakt">Kontakt</Link> </li>
           <li><Link to="/impressum">Impressum</Link></li>
         </ul>
       
