@@ -27,13 +27,22 @@ body {
 	justify-content: space-around;
 	padding-top: 11rem;
 	padding-bottom: 6rem;
+	flex-direction: column;
+	align-items: center;
 }
+
+
 
 #content {
 }
 
 .Logo {
-	width: 50rem; 
+	display:block;
+	width: 50rem;
+	padding-bottom: 3rem; 
+}
+.Ornament{
+	display:block; 
 }
 
 h2 {
@@ -42,3 +51,9 @@ h2 {
 	font-weight: 100;
 	color: #009C7F; 
 }
+
+h2 + p {
+	font-family:text;
+	font-size:130%;
+}
+
