@@ -1,0 +1,12 @@
+@font-face {
+  font-family: heading;
+  src: url('../fonts/oferta-do-dia.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: text;
+  src: url('../fonts/salmaalfasans-light.otf') format('opentype');
+  font-weight: 100; 
+}
+

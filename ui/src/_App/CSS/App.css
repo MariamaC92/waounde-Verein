@@ -1,16 +1,44 @@
+@import url('fonts.css');
+
 * {
 	margin: 0; 
 	padding: 0; 
 	box-sizing: border-box; 
+	font-family: text; 
+	color: white; 
+	font-size: 100%; 
 }
 
 body {
-	display: flex; 
-	justify-content: space-around;  
+	display: flex;
+	justify-content: space-around;
+	background-color: #151515;
 }
 
 #root {
 	flex: 1; 
 	max-width: 1260px; 
-	background-color: #deb6ae; 
+	background-color: #1a1a1a; 
+}
+
+#hero {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 11rem;
+	padding-bottom: 6rem;
+}
+
+#content {
+}
+
+.Logo {
+	width: 50rem; 
+}
+
+h2 {
+	font-family: heading;
+	font-size: 200%;
+	font-weight: 100;
+	color: #009C7F; 
 }

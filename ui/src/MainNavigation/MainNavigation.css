@@ -1,15 +1,25 @@
-.navbar {
-  display: flex; 
-  justify-content: flex-end; 
+nav {
 }
 
+.navbar {
+  display: flex; 
+  margin-bottom: 10rem; 
+}
 
 .navbar ul {
+  width: 100%; 
   list-style-type: none;
+  display: flex; 
+  justify-content: space-between; 
 }
 
 .navbar li {
   display: inline;  
-  margin: 1rem; 
+  margin: 1rem;
+  text-transform: uppercase; 
+}
+
+.navLink {
+  text-decoration: none; 
 }
 
