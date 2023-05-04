@@ -8,4 +8,9 @@ GET  http://localhost:5000/contentpage/projekte
 
 GET  http://localhost:5000/contentpage/aktuelles
 
+###
+
+GET  http://localhost:5000/contentpage/impressum
+
+
 
