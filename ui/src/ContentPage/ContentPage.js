@@ -9,22 +9,25 @@ export default function ContentPage() {
     axios
       .get(`http://localhost:5000/contentpage/${side}`)
       .then((response) => {
-        setContent(response.data);
+        setContent(response.data.rows);
       })
       .catch((error) => {
         console.log(error);
       });
   }, [side]);
-  console.log(content);
   return (
     <>
       {content &&
-      content.headline.map((item) => {
-        const Heading = `h${item.deepness}`
-        return <Heading>{item.headcription}</Heading>
+        content.map((item) => {
+          let attr = JSON.parse(item.tag_attributes); 
+          if (item.content_table == "headlines") {
+            const Heading = `h${attr.deepness}`
+            return <Heading>{attr.description}</Heading>
+          }
+          if (item.content_table == "links") {
+            return <NavLink to= "/eventarchiv">{attr.description}</NavLink>
+          }
       }) }
-      {/* Lukas alleine */}
-      {/*    {content && <p>{content.textcontent.topic}</p>} */}
     </>
   );
 }

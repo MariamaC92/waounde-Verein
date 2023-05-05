@@ -4,26 +4,24 @@ import pool from "./utils/Pool.js";
 
 dotenv.config();
 
+try {
+  const files = fs.readdirSync(process.env.SQLSCRIPTS || "model")
+  files.forEach(file => {
+    console.log(file)
+  })
+} catch (err) {
+  console.log(err)
+}
+
+var file_no = -1; 
+
 pool.query('select file_no from db_version', (error, results) => {
   if (error) {
-    if (error.code == "42P01")
-      update(-1); 
-    else 
-      console.log(error);
+    console.log(error);
   } else {
-    update((results.rows.length === 0) ? 0 : results.rows[0].file_no); 
+    console.log(results.rows); 
+    file_no = (results.rows.length === 0) ? 0 : results.rows[0].file_no; 
   }
 })
 
-function update(current_file_no) {
-
-  try {
-    var files = fs.readdirSync(process.env.SQLSCRIPTS || "model")
-    files.forEach(file => {
-      console.log(current_file_no + " => " + file)
-    })
-  } catch (err) {
-    console.log(err)
-  }
-}
-
+console.log(file_no); 
