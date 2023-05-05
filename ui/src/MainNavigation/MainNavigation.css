@@ -23,3 +23,10 @@ nav {
   text-decoration: none; 
 }
 
+li .active {
+  text-decoration: underline;
+  text-decoration-color: #f63976;
+  text-decoration-thickness: 8px;
+  text-underline-offset: 10px;
+ }
+
