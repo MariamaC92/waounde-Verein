@@ -64,6 +64,7 @@ h2 + p {
 	margin-left: 4rem;
 	margin-right: 3rem;
 	flex-direction: column;
+	margin-bottom: 3rem;
 }
 
 .row{
