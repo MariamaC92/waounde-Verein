@@ -19,8 +19,8 @@ export default function ContentPage() {
     <>
       {content &&
         content.map((item) => {
+          let attr = JSON.parse(item.tag_attributes); 
           if (item.content_table == "headlines") {
-            let attr = JSON.parse(item.tag_attributes); 
             const Heading = `h${attr.deepness}`
             return <Heading>{attr.description}</Heading>
           }
