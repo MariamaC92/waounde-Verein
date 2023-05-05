@@ -2,10 +2,13 @@
   "name": "db",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node db.js"
+    "dbupdate": "node dbupdate.js"
   },
   "dependencies": {
-    "express": "~4.16.1"
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "pg": "^8.10.0"
   }
 }
