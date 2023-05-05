@@ -24,6 +24,9 @@ export default function ContentPage() {
             const Heading = `h${attr.deepness}`
             return <Heading>{attr.description}</Heading>
           }
+          if (item.content_table == "links") {
+            return <NavLink to= "/eventarchiv">{attr.description}</NavLink>
+          }
       }) }
     </>
   );
