@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
+
 
 export default function ContentPage() {
   const [content, setContent] = useState();
@@ -25,7 +26,7 @@ export default function ContentPage() {
             return <Heading>{attr.description}</Heading>
           }
           if (item.content_table == "links") {
-            return <NavLink to= "/eventarchiv">{attr.description}</NavLink>
+            return <NavLink to={attr.url}>{attr.description}</NavLink>
           }
       }) }
     </>
