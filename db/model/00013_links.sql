@@ -11,7 +11,6 @@ VALUES ('/eventarchiv', 'Eventarchiv');
 INSERT INTO content(sort, content_type_id, content_table,side)
 VALUES(2, 1, 'links','aktuelles');
 
-
 DROP VIEW content_page;
 
 

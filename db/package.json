@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node db.js"
+    "dbupdate": "node dbupdate.js",
+    "dbreset": "node dbreset.js"
   },
   "dependencies": {
     "express": "~4.16.1"
