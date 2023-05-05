@@ -50,10 +50,25 @@ h2 {
 	font-size: 200%;
 	font-weight: 100;
 	color: #009C7F; 
+	padding-right: 10rem;
 }
 
 h2 + p {
 	font-family:text;
 	font-size:130%;
+	padding-right: 8rem;
+}
+
+.column {
+	display: flex;
+	margin-left: 4rem;
+	margin-right: 3rem;
+	flex-direction: column;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	margin-right: 3rem;
 }
 
