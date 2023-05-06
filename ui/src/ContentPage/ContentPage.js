@@ -28,6 +28,10 @@ export default function ContentPage() {
           if (item.content_table == "links") {
             return <NavLink to={attr.url}>{attr.description}</NavLink>
           }
+          if (item.content_table == "textcontent") {
+            const Topic= {attr.topic}
+            return <Topic/>
+          }
       }) }
     </>
   );
