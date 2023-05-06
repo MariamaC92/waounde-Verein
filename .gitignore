@@ -45,3 +45,4 @@ yarn-error.log*
 *.env
 api/database/.env
 
+/db/dbupdate.js
