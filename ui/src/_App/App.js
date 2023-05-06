@@ -10,7 +10,6 @@ import Map from "./Map.js"
 
 export default function App() {
   return (<>
-  
     <Hero />
     <MainNavigation /> 
     <div id="content">
