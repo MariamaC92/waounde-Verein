@@ -27,8 +27,6 @@ export default function App() {
         <div className="column"> <Map/></div>
       </div>
       
-      
-      
     <Routes>
       <Route path="/">
         <Route index element={<Header />} />
