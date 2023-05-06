@@ -14,7 +14,6 @@ export default function App() {
     <Hero />
     <MainNavigation /> 
     <div id="content">
-      
       <div className="row">
         <div className="column"><h2>Überschrift</h2>
       <p>Ich bin der Teaser</p></div>

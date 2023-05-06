@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { NavLink, useParams } from "react-router-dom";
-import { useParams, NavLink } from "react-router-dom";
 
 
 export default function ContentPage() {
@@ -30,13 +29,8 @@ export default function ContentPage() {
             return <NavLink to={attr.url}>{attr.description}</NavLink>
           }
           if (item.content_table == "textcontent") {
-            const Topic = ({ children }) => <p>{children}</p>;
-            return <Topic>{attr.topic}</Topic>;
-
-          }
-          if (item.content_table == "textcontent") {
-            const Topic= attr
-            return <Topic>{attr.topic}</Topic>
+            const Topic= {attr.topic}
+            return <Topic/>
           }
       }) }
     </>
