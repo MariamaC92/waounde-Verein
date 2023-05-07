@@ -2,3 +2,8 @@
     height: 15rem;
     width:30rem;
 }
+
+.leaflet-bar a{
+    color: black;
+}
+
