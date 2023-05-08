@@ -78,4 +78,7 @@ WHERE content.side = _sidename
 ORDER BY sort;
 
 $func$;  
+
+UPDATE maps SET overlay_file = 'maskmarker.svg'
+WHERE id = 1;
 	
