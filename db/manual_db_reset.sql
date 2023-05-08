@@ -1,3 +1,4 @@
+DROP VIEW IF EXISTS content_page; 
 DROP function if exists content_page; 
 DROP TABLE if exists db_version; 
 DROP TABLE if exists content; 
