@@ -35,6 +35,7 @@ export default function ContentPage() {
             const Texttype = `${attr.element}`
             return <Texttype>{attr.topic}</Texttype> 
           }
+          
       }) }
     </>
   );

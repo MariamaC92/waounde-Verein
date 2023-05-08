@@ -4,17 +4,18 @@ import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
 
 
-const position = [15.2661251, -12.8677143];
+const position = [`${attr.latitude}, ${attr.longitude}`];
 
 const markerIcon = new Icon({
   iconUrl: process.env.PUBLIC_URL + "/images/maskmarker.svg",
   iconSize: [30, 30],
+
 });
 
 export default function Map() {
   return (
 
-    <MapContainer center={position} zoom={14}>
+    <MapContainer center={position} zoom={`${attr.zoom}`}>
 
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
