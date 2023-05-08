@@ -4,10 +4,10 @@ import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
 
 
-const position = [15.2641251, -12.8677143];
+const position = [`${attr.latitude}, ${attr.longitude}`];
 
 const markerIcon = new Icon({
-  iconUrl: require("../_App/Images/marker.png"),
+  iconUrl: require(`../_App/Images/${overlay_file}`),
   iconSize: [35, 45],
 });
 
@@ -15,7 +15,7 @@ export default function Map() {
 
   return (
 
-    <MapContainer center={position} zoom={14}>
+    <MapContainer center={position} zoom={`${attr.zoom}`}>
 
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
