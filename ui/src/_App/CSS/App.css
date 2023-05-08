@@ -12,12 +12,13 @@
 body {
 	display: flex;
 	justify-content: space-around;
-	background-color: #151515;
+	background-color: #1a1a1a;
 }
 
 #root {
 	flex: 1; 
 	max-width: 1260px; 
+	width: 100%;
 	background-color: #1a1a1a; 
 }
 
@@ -38,12 +39,15 @@ body {
 
 .Logo {
 	display:block;
-	width: 50rem;
+	max-width: 50rem;
+	width: 100%;
 	padding-bottom: 3rem; 
 }
+
 .OrnamentOne{
 	display:block;
 	padding-bottom: 3rem; 
+
 }
 
 h2 {
