@@ -22,7 +22,7 @@ export default function App() {
       <div className="row">
         <div className="column"><h2>Leaflet</h2>
       <p>Gemeinde Waoundés</p></div>
-        <div className="column"> <Map/></div>
+       
       </div>
       
     <Routes>
