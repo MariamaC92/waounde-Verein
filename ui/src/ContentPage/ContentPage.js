@@ -39,6 +39,7 @@ export default function ContentPage() {
           if (item.content_table == "maps") {
             return <Map attr={attr} />
           }
+          
       }) }
     </>
   );
