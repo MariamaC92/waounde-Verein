@@ -3,7 +3,10 @@
     width:30rem;
 }
 
-.leaflet-bar a{
+.mapContainer {
     color: black;
 }
 
+.leaflet-container {
+    color: red;
+}

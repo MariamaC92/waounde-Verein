@@ -14,7 +14,7 @@ const markerIcon = new Icon({
 export default function Map() {
   return (
 
-    <MapContainer center={position} zoom={14}>
+    <MapContainer className="mapContainer" center={position} zoom={14}>
 
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
