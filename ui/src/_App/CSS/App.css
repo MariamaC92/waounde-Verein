@@ -50,13 +50,37 @@ body {
 
 }
 
-h2 {
-	font-family: heading;
-	font-size: 200%;
+h1, h2, h3, h4, h5, h6 {
+	font-family: heading;	
 	font-weight: 100;
-	color: #009C7F; 
+	color: #009C7F !important; 
 	padding-right: 10rem;
 }
+
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 175%;
+}
+
+h3 {
+	font-size: 155%;
+}
+
+h4 {
+	font-size: 140%;
+}
+
+h5 {
+	font-size: 130%;
+}
+
+h6 {
+	font-size: 125%;
+}
+
 
 h2 + p {
 	font-family:text;

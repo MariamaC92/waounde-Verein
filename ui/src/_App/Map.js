@@ -4,8 +4,6 @@ import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
 
 
-
-
 export default function Map({attr}) {
 console.log(attr);
   const position = [attr.latitude, attr.longitude];

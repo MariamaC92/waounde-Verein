@@ -1,6 +1,7 @@
 .leaflet-container{
     height: 15rem;
     width:100%;
+    margin:1rem 0;
 }
 
 .leaflet-bar a{
