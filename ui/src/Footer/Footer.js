@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import { ReactComponent as OrnamentTwo } from "../_App/Images/OrnamentTwo.svg";
 
 export default function Footer() {
   return (
+    <>
+    <OrnamentTwo className="OrnamentTwo"/>
     <footer className="footerBar">
         <ul>
           <li><Link to="/links" className="footerLink">Links</Link> </li>
@@ -12,5 +15,6 @@ export default function Footer() {
           <li><Link to="/impressum" className="footerLink">Impressum</Link></li>
         </ul>
     </footer>
+    </>
   );
 };

@@ -7,12 +7,12 @@ import { Icon } from "leaflet";
 const position = [`${attr.latitude}, ${attr.longitude}`];
 
 const markerIcon = new Icon({
-  iconUrl: require(`../_App/Images/${overlay_file}`),
-  iconSize: [35, 45],
+  iconUrl: process.env.PUBLIC_URL + "/images/maskmarker.svg",
+  iconSize: [30, 30],
+
 });
 
 export default function Map() {
-
   return (
 
     <MapContainer center={position} zoom={`${attr.zoom}`}>
@@ -22,7 +22,7 @@ export default function Map() {
         url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <Marker position={position} icon={markerIcon}>
-       <Popup>
+        <Popup>
           A pretty CSS3 popup. <br /> Easily customizable.
         </Popup>
       </Marker>

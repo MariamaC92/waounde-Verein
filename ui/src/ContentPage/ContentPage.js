@@ -28,6 +28,9 @@ export default function ContentPage() {
           if (item.content_table == "links") {
             return <NavLink to={attr.url}>{attr.description}</NavLink>
           }
+          if (item.content_table == "images") {
+            return <img src={`${process.env.PUBLIC_URL}/images/${attr.uri}`}alt={attr.description} />
+          }
           if (item.content_table == "textcontent") {
             const Texttype = `${attr.element}`
             return <Texttype>{attr.topic}</Texttype> 
