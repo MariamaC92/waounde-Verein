@@ -1,4 +1,6 @@
 .footerBar {
+    
+    background-color: #1a1a1a;
     display: flex; 
     justify-content: space-around;  
     padding: 2rem; 
