@@ -8,6 +8,7 @@ export default function Map({attr}) {
 console.log(attr);
   const position = [attr.latitude, attr.longitude];
 
+
   const markerIcon = new Icon({
     iconUrl: process.env.PUBLIC_URL + `/images/${attr.overlay_file}`,
     iconSize: [30, 30],

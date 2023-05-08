@@ -5,6 +5,7 @@
     position:sticky;
     bottom: 0;
     color: white;
+    background-color: #1a1a1a;
   }
   
  .footerBar ul  {
@@ -22,6 +23,7 @@
   text-decoration: none;
 }
 
-.OrnamentFooter{
+.ornamentFooter{
+  padding-top: 3rem;
   position: sticky;
 }

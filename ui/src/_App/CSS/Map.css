@@ -4,7 +4,10 @@
     margin:1rem 0;
 }
 
-.leaflet-bar a{
+.mapContainer {
     color: black;
 }
 
+.leaflet-container {
+    color: red;
+}

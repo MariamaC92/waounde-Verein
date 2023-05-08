@@ -6,7 +6,7 @@ import { ReactComponent as OrnamentTwo } from "../_App/Images/OrnamentTwo.svg";
 export default function Footer() {
   return (
     <>
-    <OrnamentTwo className="OrnamentTwo"/>
+    <OrnamentTwo className="ornamentFooter"/>
     <footer className="footerBar">
         <ul>
           <li><Link to="/links" className="footerLink">Links</Link> </li>
