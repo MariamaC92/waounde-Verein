@@ -10,11 +10,9 @@ import Map from "./Map.js"
 
 export default function App() {
   return (<>
-  
     <Hero />
     <MainNavigation /> 
     <div id="content">
-      
       <div className="row">
         <div className="column"><h2>Überschrift</h2>
       <p>Ich bin der Teaser</p></div>
@@ -26,8 +24,6 @@ export default function App() {
       <p>Gemeinde Waoundés</p></div>
         <div className="column"> <Map/></div>
       </div>
-      
-      
       
     <Routes>
       <Route path="/">

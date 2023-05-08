@@ -12,12 +12,13 @@
 body {
 	display: flex;
 	justify-content: space-around;
-	background-color: #151515;
+	background-color: #1a1a1a;
 }
 
 #root {
 	flex: 1; 
 	max-width: 1260px; 
+	width: 100%;
 	background-color: #1a1a1a; 
 }
 
@@ -25,7 +26,7 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	padding-top: 11rem;
+	padding-top: 10rem;
 	padding-bottom: 6rem;
 	flex-direction: column;
 	align-items: center;
@@ -38,11 +39,15 @@ body {
 
 .Logo {
 	display:block;
-	width: 50rem;
+	max-width: 50rem;
+	width: 100%;
 	padding-bottom: 3rem; 
 }
-.Ornament{
-	display:block; 
+
+.OrnamentOne{
+	display:block;
+	padding-bottom: 3rem; 
+
 }
 
 h2 {
