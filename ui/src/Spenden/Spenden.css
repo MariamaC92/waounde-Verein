@@ -1,0 +1,31 @@
+.spendenbutton {
+    margin-bottom: 4rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.zeileSpenden {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.spalteSpenden1 {
+max-width:50%;
+width: 50%;
+margin-left: 3rem;
+}
+
+.spalteSpenden2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width: 50%;
+    padding-right: 8rem;
+    padding-left: 6rem;
+    
+}
+
+.dank {
+    margin-top: 2rem;
+}
