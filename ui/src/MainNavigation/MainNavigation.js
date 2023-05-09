@@ -20,8 +20,7 @@ export default function MainNavigation() {
             <UberUnsIcon/> 
             </div>
             <div className="navPoints">Über uns</div>
-            
-            
+          
             </NavLink>
           </li>
           <li>

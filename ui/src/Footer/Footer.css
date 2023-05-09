@@ -29,3 +29,12 @@
   padding-top: 3rem;
   position: sticky;
 }
+
+@media screen and (max-width: 700px) {
+  .footerBar li {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 0.7rem;
+  }
+}
+
