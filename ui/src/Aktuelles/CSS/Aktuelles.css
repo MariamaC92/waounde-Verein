@@ -1,0 +1,21 @@
+.Zeile {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.spalte1 {
+max-width:50%;
+width: 50%;
+}
+
+.spalte2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width: 50%;
+    
+}
+
+img {
+    margin: 1rem 1rem;
+}
