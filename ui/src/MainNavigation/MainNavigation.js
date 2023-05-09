@@ -16,7 +16,7 @@ export default function MainNavigation() {
         <ul className="menu">
           <li>
             <NavLink to="/ueberuns" className="navLink"> 
-            <div className="navIcon">
+            <div className="navIcon" id="uberUnsIcon">
             <UberUnsIcon/> 
             </div>
             <div className="navPoints">Über uns</div>

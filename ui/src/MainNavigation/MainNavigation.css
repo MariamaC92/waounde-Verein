@@ -1,7 +1,7 @@
 
 .navbar {
   display: flex; 
-  margin-bottom: 10rem; 
+  margin-bottom: 6rem; 
 }
 
 .navbar ul {
@@ -44,9 +44,12 @@ li .active {
 }
 
 #spendenIcon {
-  padding-top: 0.2rem;
+  padding-top: 0.4rem;
 }
 
+#uberUnsIcon {
+  padding-bottom: 0.1rem;
+}
 /* Ab hier Hamburger menu Zone */
 
  .navbar {
