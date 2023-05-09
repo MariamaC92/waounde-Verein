@@ -44,4 +44,13 @@ margin-left: 3rem;
       width: 100%;
       max-width: 100%;
     }
-}
+      .spalteSpenden2 p {
+        margin:  1rem 0;
+      }
+
+      .spalteSpenden2 {
+    
+        padding-left: 3rem;
+        
+    }
+    }
