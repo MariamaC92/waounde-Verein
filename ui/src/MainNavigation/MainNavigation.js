@@ -16,7 +16,12 @@ export default function MainNavigation() {
         <ul className="menu">
           <li>
             <NavLink to="/ueberuns" className="navLink"> 
-            <UberUnsIcon/>Über uns
+            <div className="navIcon">
+            <UberUnsIcon/> 
+            </div>
+            <div className="navPoints">Über uns</div>
+            
+            
             </NavLink>
           </li>
           <li>
@@ -24,17 +29,26 @@ export default function MainNavigation() {
             <NavLink
               to="/aktuelles"
               className="navLink">
-              <AktuellesIcon/> Aktuelles
+                <div className="navIcon">
+              <AktuellesIcon/>
+              </div>
+              <div className="navPoints">Aktuelles</div> 
             </NavLink>
           </li>
           <li>
             <NavLink to="/projekte" className="navLink">
-            <ProjekteIcon/> Projekte
+            <div className="navIcon">
+            <ProjekteIcon/>
+            </div> 
+            <div className="navPoints">Projekte</div>
             </NavLink>
           </li>
           <li>
             <NavLink to="/spenden" className="navLink">
-            <SpendenIcon/>Spenden
+            <div className="navIcon" id="spendenIcon">
+            <SpendenIcon/>
+            </div>
+            <div className="navPoints">Spenden</div>
             </NavLink>
           </li>
         </ul>
