@@ -6,6 +6,7 @@
 .spalte1 {
 max-width:50%;
 width: 50%;
+margin-left: 2rem;
 }
 
 .spalte2 {
@@ -18,4 +19,12 @@ width: 50%;
 
 .kalender {
     margin-bottom: 3rem;
+}
+
+.absatzAktuelles {
+    margin-bottom: 2rem;
+}
+
+.teaser {
+    margin-top: 1rem;
 }
