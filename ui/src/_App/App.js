@@ -7,6 +7,8 @@ import ContentPage from "../ContentPage/ContentPage";
 import Footer from "../Footer/Footer.js";
 import Hero from "./Hero.js";
 import Map from "./Map.js"
+import Aktuelles from "../Aktuelles/Aktuelles";
+import Spenden from "../Spenden/Spenden"
 
 export default function App() {
   return (<>
@@ -16,6 +18,8 @@ export default function App() {
       <Route path="/">
         <Route index element={<Header />} />
         <Route path="/:side" element={<ContentPage />} />
+        <Route path="/aktuelles" element={<Aktuelles />} />
+        <Route path="/spenden" element={<Spenden />}/>
       </Route>
       </Routes>
     <Footer/>
