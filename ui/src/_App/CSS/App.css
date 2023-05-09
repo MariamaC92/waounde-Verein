@@ -88,6 +88,12 @@ h2 + p {
 	padding-right: 8rem;
 }
 
+.report_header2 {
+    font-family:text;
+	font-size:130%;
+	padding-right: 8rem;
+}
+
 .column {
 	display: flex;
 	margin-left: 4rem;
