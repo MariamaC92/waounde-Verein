@@ -19,7 +19,9 @@
 }
 
 .navLink {
-  text-decoration: none; 
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
 }
 
 li .active {
@@ -28,6 +30,22 @@ li .active {
   text-decoration-thickness: 8px;
   text-underline-offset: 10px;
  }
+
+ .navIcon {
+
+  height: 2rem;
+  width: 1.6rem;
+  
+}
+
+.navPoints {
+  padding-top: 0.4rem;
+  padding-left: 0.5rem;
+}
+
+#spendenIcon {
+  padding-top: 0.2rem;
+}
 
 /* Ab hier Hamburger menu Zone */
 
@@ -52,6 +70,7 @@ li .active {
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
+  
 }
 
 
@@ -148,3 +167,6 @@ li .active {
     border-bottom: 1px solid #444;
   }
 }
+
+
+
