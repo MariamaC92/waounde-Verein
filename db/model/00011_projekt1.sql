@@ -76,5 +76,7 @@ INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/proje
 UPDATE content SET side = 'projekt1'
 WHERE side = '/projekt1';
 
+UPDATE images SET uri = 'bericht2022_2.png' WHERE id = 7; 
+
 
 
