@@ -10,6 +10,7 @@ import Map from "./Map.js"
 import Aktuelles from "../Aktuelles/Aktuelles";
 import Spenden from "../Spenden/Spenden"
 
+
 export default function App() {
   return (<>
     <Hero />

@@ -1,0 +1,11 @@
+DROP VIEW IF EXISTS content_page; 
+DROP function if exists content_page; 
+DROP TABLE if exists db_version; 
+DROP TABLE if exists content; 
+DROP TABLE IF EXISTS headlines; 
+DROP TABLE IF EXISTS links; 
+DROP TABLE IF EXISTS images; 
+DROP TABLE IF EXISTS maps; 
+DROP TABLE IF EXISTS textcontent;
+DROP TABLE IF EXISTS classnames; 
+DROP TABLE IF EXISTS texttypes;  
