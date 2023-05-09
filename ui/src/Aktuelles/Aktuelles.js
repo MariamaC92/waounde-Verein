@@ -3,12 +3,15 @@ import gesundheitszentrum2 from "./images/gesundheitszentrum2.png"
 import kulturtag1 from "./images/kulturtag1.png"
 import kulturtag2 from "./images/kulturtag2.png"
 import "./CSS/Aktuelles.css"
+import kalender from "./images/kalender.svg"
 
 
 
 export default function Aktuelles() {
     return (
         <>
+        <img className="kalender" src={kalender} alt="Kalender" />
+
         <div className="Zeile">
             <div className="spalte1">
         <h3>Das Gesundheitszentrum in Waounde</h3>
@@ -20,15 +23,15 @@ wurde und das dem Gesundheitszentrum angeschlossen sein wird, zügig weiter. Zur
 konnte die Kachelung abgeschlossen und der Innenanstrich begonnen werden. Als Nächstes werden
 die Ausstattung des Zentrums, die Rekrutierung und Einweisung des Personals folgen. Die Eröffnung
 ist für Ende 2023 vorgesehen. Reiselustige sind eingeladen, der Eröffnung beizuwohnen! </p>
-        <img src={gesundheitszentrum1} alt="Baustelle der Entbindungsstation" />
-        <img src={gesundheitszentrum2} alt="Baustelle der Entbindungsstation" />
+        <img className="imgAktuelles" src={gesundheitszentrum1} alt="Baustelle der Entbindungsstation" />
+        <img className="imgAktuelles" src={gesundheitszentrum2} alt="Baustelle der Entbindungsstation" />
         </div>
         </div>
 
         <div className="Zeile">
             <div className="spalte1">
         <h3>Das öffentliche Kulturfest in München</h3>
-        <p>Ein Einblick in die Kultur Waoundés in Europa</p>
+        <p>Ein Einblick in die Kultur Waoundés</p>
         </div>
         <div className="spalte2">
         <p>Am 8. Oktober lud die Selbsthilfegruppe zu einem öffentlichen Kulturfest ein. Es fand, wie schon im
@@ -37,8 +40,8 @@ zu haben. Sein Spiel auf der Djembe lud Jung und Alt zum Tanzen ein. Niemand kon
 Anziehungskraft der Rhythmen entziehen. Aufgekratzt und fröhlich tanzten die Gäste vom frühen
 Nachmittag bis späten Abend.Danke an die Selbsthilfeförderung der Stadt München, die den Kulturtag
 gefördert hat und Danke allen, die gekommen sind oder kommen wollten. Es bedeutet uns viel.</p>
-        <img src={kulturtag1} alt="Soninké Frauen in traditioneller Kleidung" /> 
-        <img src={kulturtag2} alt="Soninké Frauen in traditioneller Kleidung" /> 
+        <img className="imgAktuelles" src={kulturtag1} alt="Soninké Frauen in traditioneller Kleidung" /> 
+        <img className="imgAktuelles" src={kulturtag2} alt="Soninké Frauen in traditioneller Kleidung" /> 
         </div>    
         </div>
         </>
