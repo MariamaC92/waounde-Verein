@@ -34,6 +34,7 @@
   max-width: 2000px; 
   fill: #ffffff; 
 }
+
 .navLink:focus .navIcon {
   fill: #F63A76;
 }

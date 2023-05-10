@@ -1,6 +1,6 @@
 export const CookiesIcon = () => {
     return (
-      <svg className="footerIcon" id="uuid-9bd31ca6-35fd-4864-a950-96b02e13ee68" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.7 23.69">
+      <svg className="navIcon" id="uuid-9bd31ca6-35fd-4864-a950-96b02e13ee68" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.7 23.69">
         <path class="uuid-28a23d7e-6ed1-4e0c-9b29-a71bb14fdf4c" 
         d="m11.85,23.69C5.31,23.69,0,18.38,0,11.85S5.31,0,11.85,0c.46,0,.94.03,1.52.11.26.03.45.26.44.53-.07,1.22.31,2.38,1.06,
         3.18.68.72,1.64,1.11,2.76,1.11.53,0,1.03-.09,1.49-.27.14-.06.3-.04.43.03.13.07.22.2.25.35.28,1.7,1.42,2.88,3.03,3.15.19.03.34
@@ -12,7 +12,7 @@ export const CookiesIcon = () => {
   
   export const ImpressumIcon = () => {
       return (
-        <svg className="footerIcon" id="uuid-9be6abb0-a3d4-4ec0-86c1-919f046b32ef" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.17 23.5">
+        <svg className="navIcon" id="uuid-9be6abb0-a3d4-4ec0-86c1-919f046b32ef" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.17 23.5">
             <path class="uuid-4e3070cc-03f3-48dd-9e7b-ca20434c61bc" 
             d="m15.67,0H5.54l-.15.15C3.54,2,.5,5,.2,5.24l-.2.14v15.52c0,1.43,1.12,2.59,2.5,2.59h13.17
             c1.38,0,2.5-1.16,2.5-2.59V2.59c0-1.43-1.12-2.59-2.5-2.59ZM5.25,1.7v3.71H1.48c.92-.89,2.55-2.5,3.77-3.71Zm11.92,19.
@@ -20,9 +20,9 @@ export const CookiesIcon = () => {
       );
   }
   
-  export const KontakteIcon = () => {
+  export const KontaktIcon = () => {
     return (
-      <svg className="footerIcon" id="uuid-92fdee86-a680-4806-bc14-795e083c7171" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.61 18.07">
+      <svg className="navIcon" id="uuid-92fdee86-a680-4806-bc14-795e083c7171" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.61 18.07">
         <path class="uuid-8413b5d2-0778-4ff9-
         945e-38f12672e014" d="m19.9,0H3.71C1.66,0,0,1.76,0,3.92v10.24c0,2.16,1.66,3.92,3.71,3.92h16.19c2.04,0,3.71-1.76,3.71-3.
         92V3.92c0-2.16-1.66-3.92-3.71-3.92Zm0,1.06c.63,0,1.21.24,1.67.62l-9.54,8.56L2.25,1.51c.42-.29.92-.46,1.46-.46h16.19ZM1,
@@ -34,7 +34,7 @@ export const CookiesIcon = () => {
   
   export const LinksIcon = () => {
     return (
-      <svg className="footerIcon" id="uuid-702e438d-c3db-4ba7-a56a-d2fd5b8e465b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.89 23.89">
+      <svg className="navIcon" id="uuid-702e438d-c3db-4ba7-a56a-d2fd5b8e465b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.89 23.89">
         <path class="uuid-a58d7088-3d8c-447d-
         bbc2-f5e3961755c0" d="m23.88,12.18c0-.36,0-.72-.02-1.08-.06-.89-.23-1.78-.49-2.64s-.6-1.64-1.04-2.4-.94-1.45-1.51-
         2.09-1.22-1.22-1.92-1.72-1.46-.93-2.26-1.28-1.66-.6-2.53-.76c-.31-.06-.62-.1-.94-.13-.16-.02-.32-.03-.48-.04s-.33,
