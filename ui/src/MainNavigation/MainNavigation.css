@@ -34,10 +34,16 @@
   max-width: 2000px; 
   fill: #ffffff; 
 }
+.navLink:focus .navIcon {
+  fill: #F63A76;
+}
 
 .navLink:hover .navIcon {
-  fill: #ff0000;
+  fill: #F63A76;
 }
+
+
+
 
 /* Ab hier Hamburger menu Zone */
 
