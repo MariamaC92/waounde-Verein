@@ -14,13 +14,7 @@ export default function Spenden() {
         </div>
         <div className="spalteSpenden2">
           <p>
-            In diesem Jahr, gingen die Bauarbeiten am Mutter-Kind-Zentrum, das
-            2021 begonnen wurde und das dem Gesundheitszentrum angeschlossen
-            sein wird, zügig weiter. Zur Jahreswende konnte die Kachelung
-            abgeschlossen und der Innenanstrich begonnen werden. Als Nächstes
-            werden die Ausstattung des Zentrums, die Rekrutierung und Einweisung
-            des Personals folgen. Die Eröffnung ist für Ende 2023 vorgesehen.
-            Reiselustige sind eingeladen, der Eröffnung beizuwohnen!{" "}
+          Für einen wohltätigen Verein gibt es im wesentlichen zwei Faktoren, die das Gelingen der Projekte bestimmen. Das sind zum einen die Vereinsmitglieder, die mit ihrer Tatkraft versuchen, die gesteckten Ziele zu realisieren. Zum anderen sind natürlich finanzielle Mittel nötig und da reichen die Mitgliedsbeiträge selten aus. Deshalb ist man auf die Spenden Dritter angewiesen, sie bilden die eigentliche Grundlage des Gelingens. Wenn Sie uns unterstützen möchten, sind wir und die Bürger Waoundés, über jegliche Spenden oder auch über Ideen für Spendenaktionen sehr dankbar.{" "}
           </p>{" "}
         </div>
       </div>
