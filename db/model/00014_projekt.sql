@@ -20,20 +20,44 @@ Dakar. Bis zuletzt engagierte er sich für seine Mitmenschen und seine Heimatsta
 
 INSERT INTO images (uri,alternative) VALUES ('bericht2021_6.png', 'Lachende Kinder');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 1, 11, 'headlines');
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 1, 1, 'rowset'); 
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 2, 21, 'textcontent');
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 2, 1, 'colset'); 
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 3, 12, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 3, 11, 'headlines');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 4, 1, 'links');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 4, 21, 'textcontent');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 5, 12, 'headlines');
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 5, 2, 'colset'); 
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 6, 22, 'textcontent');
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 6, 1, 'colset'); 
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 7, 23, 'textcontent');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 7, 12, 'images');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte',8 , 13, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 8, 1, 'links');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 9, 2, 'links');
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 9, 2, 'colset'); 
+
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 10, 2, 'rowset'); 
+
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 11, 1, 'rowset'); 
+
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 12, 1, 'colset'); 
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 13, 12, 'headlines');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 14, 22, 'textcontent');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 15, 23, 'textcontent');
+
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 16, 2, 'colset'); 
+
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 17, 1, 'colset'); 
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 18 , 13, 'images');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekte', 19, 2, 'links');
+
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 20, 2, 'colset'); 
+
+insert into content (side, sort, content_type_id, content_table) values ('projekte', 21, 2, 'rowset'); 
