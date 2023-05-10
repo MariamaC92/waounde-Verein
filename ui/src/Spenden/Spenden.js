@@ -25,13 +25,8 @@ export default function Spenden() {
         </div>
         <div className="spalteSpenden2">
           <p>
-            In diesem Jahr, gingen die Bauarbeiten am Mutter-Kind-Zentrum, das
-            2021 begonnen wurde und das dem Gesundheitszentrum angeschlossen
-            sein wird, zügig weiter. Zur Jahreswende konnte die Kachelung
-            abgeschlossen und der Innenanstrich begonnen werden. Als Nächstes
-            werden die Ausstattung des Zentrums, die Rekrutierung und Einweisung
-            des Personals folgen. Die Eröffnung ist für Ende 2023 vorgesehen.
-            Reiselustige sind eingeladen, der Eröffnung beizuwohnen!{" "}
+            Wir sind froh einige Unternehmen als treue Unterstützer bezeichnen zu können.
+            Sollten Sie sich als Unternehmer unserer Mission anschließen wollen, stehen wir ihnen natürlich für etwaige Fragen gern zur Verfügung.{" "}
           </p>{" "}
         </div>
       </div>
