@@ -20,39 +20,28 @@
 
 .navLink {
   display: flex;
-  flex-direction: row;
   text-decoration: none;
+  height: 1.5rem; 
 }
 
-li .active {
-  text-decoration: underline;
-  text-decoration-color: #f63976;
-  text-decoration-thickness: 8px;
-  text-underline-offset: 10px;
- }
-
- .navIcon {
-
-  height: 2rem;
-  width: 1.6rem;
-  
+.navText {
+  align-self: center; 
+  padding-left: 0.5rem; 
 }
 
-.navPoints {
-  padding-top: 0.4rem;
-  padding-left: 0.5rem;
+.navIcon {
+  max-height: 2000px; 
+  max-width: 2000px; 
+  fill: #ffffff; 
 }
 
-#spendenIcon {
-  padding-top: 0.4rem;
+.navLink:hover .navIcon {
+  fill: #ff0000;
 }
 
-#uberUnsIcon {
-  padding-bottom: 0.1rem;
-}
 /* Ab hier Hamburger menu Zone */
 
- .navbar {
+.navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
