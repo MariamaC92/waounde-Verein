@@ -74,27 +74,56 @@ INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberu
 
 INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 5, 2, 'images');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 6, 3, 'headlines');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 7, 6, 'textcontent');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 8, 2, 'textcontent');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 9, 1, 'maps');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 100, 1, 'rowset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 10, 3, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 101, 1, 'colset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 11, 4, 'headlines');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 102, 3, 'headlines');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 12, 7, 'textcontent');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 103, 6, 'textcontent');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 13, 3, 'textcontent');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 104, 2, 'colset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 14, 4, 'textcontent');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 105, 1, 'colset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 15, 4, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 106, 2, 'textcontent');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 16, 5, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 107, 1, 'maps');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 108, 3, 'images');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 109, 2, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 110, 2, 'rowset');
+
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 111, 1, 'rowset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 112, 1, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 113, 4, 'headlines');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 114, 7, 'textcontent');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 115, 2, 'colset');
+
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 118, 1, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 119, 3, 'textcontent');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 120, 4, 'textcontent');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 121, 4, 'images');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 122, 5, 'images');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 123, 2, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('ueberuns', 124, 2, 'rowset');
 
 
 

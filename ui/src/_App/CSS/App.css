@@ -26,13 +26,11 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	padding-top: 10rem;
+	padding-top: 5rem;
 	padding-bottom: 6rem;
 	flex-direction: column;
 	align-items: center;
 }
-
-
 
 #content {
 }
@@ -88,11 +86,6 @@ h6 {
 	padding-right: 8rem;
 }
 
-.report_header2 {
-    font-family:text;
-	font-size:100%;
-	padding-right: 8rem;
-}
 
 .column {
 	display: flex;
