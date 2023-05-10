@@ -12,7 +12,7 @@ Monat. Anbei ein Bild aus der Klimawerkstatt.', 1, 7);
 INSERT INTO textcontent (topic, texttypes_id, classnames_id) VALUES ('Bei der Bezahlung im Jahr 2022 blieb es jedoch nicht. Die Selbsthilfegruppe verfasste einen Brief ans
 Ministerium und verlangte, dass das Ministerium die Lehrer im folgenden Jahr übernehme. So
 geschah es im November 2022. Die beiden jungen Lehrer sind nun fest angestellt und in das
-Ausbildungsprogramm der Berufsschule einbezogen. Geht doch!' 1, 7);
+Ausbildungsprogramm der Berufsschule einbezogen. Geht doch!', 1, 7);
 
 INSERT INTO images (uri, alternative) VALUES ('bericht2022_6.png', 'Schüler und Lehrerin im Klassenraum');
 
