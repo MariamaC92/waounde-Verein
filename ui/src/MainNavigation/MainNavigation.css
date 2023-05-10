@@ -1,7 +1,7 @@
 
 .navbar {
   display: flex; 
-  margin-bottom: 10rem; 
+  margin-bottom: 6rem; 
 }
 
 .navbar ul {
@@ -24,32 +24,42 @@
   text-decoration: none;
 }
 
-li .active {
+
+/* li .active {
   text-decoration: underline;
   text-decoration-color: #f63976;
   text-decoration-thickness: 8px;
   text-underline-offset: 10px;
- }
+ } */
 
- .navIcon {
-
+.navIcon {
   height: 2rem;
-  width: 1.6rem;
-  
+  width: 1.6rem; 
 }
 
 .navPoints {
   padding-top: 0.4rem;
   padding-left: 0.5rem;
 }
+.navPoints:hover{
+  text-decoration-line: underline;
+  text-decoration-color: #f63976;
+  /* text-decoration-thickness: 8px;
+  text-underline-offset: 10px; */
+}
 
 #spendenIcon {
-  padding-top: 0.2rem;
+  padding-top: 0.4rem;
 }
+
+#uberUnsIcon {
+  padding-bottom: 0.1rem;
+}
+
 
 /* Ab hier Hamburger menu Zone */
 
- .navbar {
+.navbar {
   display: flex;
   flex-direction: row;
   align-items: center;

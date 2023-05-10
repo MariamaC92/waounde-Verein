@@ -1,0 +1,56 @@
+.spendenbutton {
+    margin-bottom: 4rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.zeileSpenden {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.spalteSpenden1 {
+max-width:50%;
+width: 50%;
+margin-left: 3rem;
+}
+
+.spalteSpenden2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width: 50%;
+    padding-right: 8rem;
+    padding-left: 6rem;
+    
+}
+
+.dank {
+    margin-top: 2rem;
+}
+
+@media (max-width: 700px) {
+    .container {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .zeileSpenden {
+      display: block;
+    }
+    .zeileSpenden > div{
+      width: 100%;
+      max-width: 100%;
+    }
+      .spalteSpenden2 p {
+        margin:  1rem 0;
+      }
+
+      .spalteSpenden2 {
+    
+        padding-left: 3rem;
+        
+    }
+    }
