@@ -87,3 +87,20 @@
 .default_link:hover {
   text-decoration: underline; 
 }
+
+@media screen and (max-width: 700px) {
+  .default_row {
+    flex-wrap: wrap;
+  }
+  .default_col {
+    min-width: 20rem; 
+  }
+
+  .navbar {
+    margin-bottom: 1rem; 
+  }
+
+  #hero {
+    padding-bottom: 1rem;
+  }
+}
