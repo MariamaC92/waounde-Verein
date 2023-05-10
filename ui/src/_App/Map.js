@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import "./CSS/Map.css";
 import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
@@ -19,9 +19,6 @@ export default function Map({attr}) {
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={position} icon={markerIcon}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
         </Marker>
       </MapContainer>
   );
