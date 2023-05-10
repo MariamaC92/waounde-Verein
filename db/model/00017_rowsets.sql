@@ -12,6 +12,8 @@ INSERT INTO rowset (closing) VALUES (FALSE);
 INSERT INTO colset (closing) VALUES (FALSE); 
 INSERT INTO rowset (closing, classnames_id) VALUES (TRUE, 12); 
 INSERT INTO colset (closing, classnames_id) VALUES (TRUE, 13); 
+INSERT INTO colset (closing, classnames_id) VALUES (FALSE, 15); 
+
 
 UPDATE content SET sort = sort +1 WHERE side = 'ueberuns'; 
 
@@ -53,7 +55,7 @@ SELECT side,
 		 content_table,  
 		 CASE 
 		 
-			/* Überschriften */ 
+			/* ï¿½berschriften */ 
 		 	when content_table = 'headlines' 
 				THEN (SELECT json_build_object(
 														  'description',headlines.description,

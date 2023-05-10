@@ -5,3 +5,5 @@ INSERT INTO classnames (id,description, content_type_table) VALUES (11,'default_
 INSERT INTO classnames (id,description, content_type_table) VALUES (12,'default_close', 'rowset');
 
 INSERT INTO classnames (id,description, content_type_table) VALUES (13,'default_close', 'colset');
+
+INSERT INTO classnames (id,description, content_type_table) VALUES (15,'row50', 'colset');
