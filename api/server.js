@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import contentPageRouter from "./ContentPage/contentPageRouter.js";
 
-dotenv.config({path: './database/.env'});
+dotenv.config();
 console.log(process.env.PGHOST);
 const port = process.env.port || process.env.PORT || 5000;
 const app = express();

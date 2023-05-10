@@ -3,6 +3,7 @@ import axios from "axios";
 import { NavLink, useParams } from "react-router-dom";
 import Map from "../_App/Map";
 import "./CSS/contentPage.css";
+import ContentObject from "./ContentObject";
 
 
 export default function ContentPage() {
@@ -12,7 +13,26 @@ export default function ContentPage() {
     axios
       .get(`http://localhost:5000/contentpage/${side}`)
       .then((response) => {
-        setContent(response.data.rows);
+        var root = { children: [] }
+        var current = root;
+        var parents = [root];
+
+        response.data.rows.forEach((Item) => {
+          let attr = JSON.parse(Item.tag_attributes);
+          if (attr.closing == false) {
+            current.children.push(Item);
+            parents.push(current);
+            current = current.children[current.children.length - 1];
+          }
+          if (attr.closing == true) {
+            current = parents.pop();
+          }
+          if (attr.closing === undefined) {
+            current.children.push(Item);
+          }
+          if (!current.children) current.children = [];
+        })
+        setContent(root.children);
       })
       .catch((error) => {
         console.log(error);
@@ -20,28 +40,7 @@ export default function ContentPage() {
   }, [side]);
   return (
     <>
-      {content &&
-        content.map((item) => {
-          let attr = JSON.parse(item.tag_attributes); 
-          if (item.content_table == "headlines") {
-            const Heading = `h${attr.deepness}`
-            return <Heading className= {attr.classname}>{attr.description}</Heading>
-          }
-          if (item.content_table == "links") {
-            return <NavLink className={attr.classname} to={attr.url}>{attr.description}</NavLink>
-          }
-          if (item.content_table == "images") {
-            return <img className={attr.classname} src={`${process.env.PUBLIC_URL}/images/${attr.uri}`}alt={attr.description} />
-          }
-          if (item.content_table == "textcontent") {
-            const Texttype = `${attr.element}`
-            return <Texttype className={attr.classname}>{attr.topic}</Texttype> 
-          }
-          if (item.content_table == "maps") {
-            return <Map attr={attr} />
-          }
-          
-      }) }
+      {content && <ContentObject content={content} />} 
     </>
   );
 }

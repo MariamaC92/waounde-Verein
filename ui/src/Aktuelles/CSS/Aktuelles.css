@@ -6,6 +6,7 @@
 .spalte1 {
 max-width:50%;
 width: 50%;
+margin-left: 2rem;
 }
 
 .spalte2 {
@@ -18,4 +19,32 @@ width: 50%;
 
 .kalender {
     margin-bottom: 3rem;
+}
+
+.absatzAktuelles {
+    margin-bottom: 2rem;
+}
+
+.teaser {
+    margin-top: 1rem;
+}
+
+@media (max-width: 700px) {
+      .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .Zeile {
+        display: block;
+      }
+      .Zeile > div{
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .absatzAktuelles {
+        margin:  1rem 2rem;
+      }
 }
