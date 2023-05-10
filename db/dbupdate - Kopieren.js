@@ -13,7 +13,7 @@ client.connect((err) => {
   if (err) { console.error('connection error', err.stack) }
   console.log("Version aus DB auslesen!");
   client.query('select file_no from db_version', (error, results) => {
-    if (error) {
+   if (error) {
       if (error.code == "42P01")
         update(-1);
       else

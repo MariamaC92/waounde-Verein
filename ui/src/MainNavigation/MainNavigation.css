@@ -24,21 +24,22 @@
   text-decoration: none;
 }
 
-li .active {
-  text-decoration: underline;
-  text-decoration-color: #f63976;
-  text-decoration-thickness: 8px;
-  text-underline-offset: 10px;
- }
-
- .navIcon {
-
+.navIcon {
   height: 2rem;
   width: 1.6rem;
   
 }
 
+.navIcon:visited {
+  fill: rgb(255, 0, 166);
+}
+
+.navIcon:hover {
+  color : red;
+}
+
 .navPoints {
+ 
   padding-top: 0.4rem;
   padding-left: 0.5rem;
 }
