@@ -35,5 +35,11 @@
     margin: 0 1rem;
     font-size: 0.7rem;
   }
+  @media screen and (max-width: 400px) {
+    .footerBar li {
+      display: inline-block;
+      margin: 0 1rem;
+      font-size: 0.4rem;
+    }
 }
 
