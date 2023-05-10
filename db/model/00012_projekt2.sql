@@ -59,18 +59,41 @@ INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projek
 
 INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2', 7, 19, 'textcontent');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',8, 8, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',8, 1, 'rowset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',9, 9, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',9, 3, 'colset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2', 10, 10, 'headlines');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',10, 8, 'images');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2', 11, 20, 'textcontent');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',11, 2, 'colset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',12, 10, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',12, 3, 'colset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2', 13, 11, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',13, 9, 'images');
 
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',14, 2, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',15, 2, 'rowset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2', 16, 10, 'headlines');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2', 17, 20, 'textcontent');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',18, 1, 'rowset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',19, 3, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',20, 10, 'images');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',21, 2, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',22, 3, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2', 23, 11, 'images');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',24, 2, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('projekt2',25, 2, 'rowset');
 
 
 

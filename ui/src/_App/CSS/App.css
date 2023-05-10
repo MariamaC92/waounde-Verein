@@ -82,7 +82,7 @@ h6 {
 }
 
 
-h2 + p {
+.default_headlines + p {
 	font-family:text;
 	font-size:130%;
 	padding-right: 8rem;
@@ -90,7 +90,7 @@ h2 + p {
 
 .report_header2 {
     font-family:text;
-	font-size:130%;
+	font-size:100%;
 	padding-right: 8rem;
 }
 

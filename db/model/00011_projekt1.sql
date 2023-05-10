@@ -49,6 +49,7 @@ die Unterrichtsmittel für Elektriker teurer sind.) Im Schuljahr 20/21 gaben wir
 von 700 €. Im Jahr 2021 ergänzten wir ihn um 1.300 €. Anfang 2022 standen noch rund 900 € zur
 Verfügung, d.h. knapp 600.000 CFA.', 1, 7);
 
+
 INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 1, 5, 'headlines');
 
 INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 2, 8, 'textcontent');
@@ -63,15 +64,27 @@ INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/proje
 
 INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 7, 13, 'textcontent');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 8, 6, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 8, 1, 'rowset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 9, 7, 'images');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 9, 3, 'colset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 10, 14, 'textcontent');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 10, 6, 'images');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 11, 6, 'headlines');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 11, 2, 'colset');
 
-INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 12, 15, 'textcontent');
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 12, 3, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 13, 7, 'images');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 14, 2, 'colset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 15, 2, 'rowset');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 16, 14, 'textcontent');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 17, 6, 'headlines');
+
+INSERT INTO content (side, sort, content_type_id, content_table) VALUES ('/projekt1', 18, 15, 'textcontent');
 
 UPDATE content SET side = 'projekt1'
 WHERE side = '/projekt1';
