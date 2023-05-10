@@ -1,4 +1,5 @@
 import Map from "../_App/Map.js";
+import { NavLink, useParams } from "react-router-dom";
 
 const ContentObject = ({ content }) => {
   return (
