@@ -2,8 +2,6 @@ import "./MainNavigation.css";
 import { NavLink } from "react-router-dom";
 import { AktuellesIcon, UberUnsIcon, ProjekteIcon, SpendenIcon } from "./Icons.js";
 
-
-
 export default function MainNavigation() {
 
   return (
@@ -16,38 +14,26 @@ export default function MainNavigation() {
         <ul className="menu">
           <li>
             <NavLink to="/ueberuns" className="navLink"> 
-            <div className="navIcon" id="uberUnsIcon">
-            <UberUnsIcon/> 
-            </div>
-            <div className="navPoints">Über uns</div>
-          
+              <UberUnsIcon />
+              <div className="navText">Über uns</div> 
             </NavLink>
           </li>
           <li>
-          
-            <NavLink
-              to="/aktuelles"
-              className="navLink">
-                <div className="navIcon">
-              <AktuellesIcon/>
-              </div>
-              <div className="navPoints">Aktuelles</div> 
+            <NavLink to="/aktuelles" className="navLink">
+              <AktuellesIcon />
+              <div className="navText">Aktuelles</div> 
             </NavLink>
           </li>
           <li>
             <NavLink to="/projekte" className="navLink">
-            <div className="navIcon">
-            <ProjekteIcon/>
-            </div> 
-            <div className="navPoints">Projekte</div>
+              <ProjekteIcon/>
+              <div className="navText">Projekte</div>
             </NavLink>
           </li>
           <li>
             <NavLink to="/spenden" className="navLink">
-            <div className="navIcon" id="spendenIcon">
-            <SpendenIcon/>
-            </div>
-            <div className="navPoints">Spenden</div>
+              <SpendenIcon/>
+              <div className="navText">Spenden</div>
             </NavLink>
           </li>
         </ul>
